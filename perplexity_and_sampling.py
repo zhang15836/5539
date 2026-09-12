@@ -45,12 +45,11 @@ def compute_perplexity(text: str) -> float:
 
 
 paragraph = (
-    "The old lighthouse stood alone on the rocky cliff, its light sweeping "
-    "across the dark water every ten seconds. Sailors who passed that coast "
-    "said the keeper never slept, and that the beam had never once failed "
-    "in a hundred years. On stormy nights, fishermen claimed they could see "
-    "a second light flickering just behind the first, as if someone else "
-    "was watching over the sea."
+    "I really like Alexandra, the new female character Rusty Lake introduced "
+    "in Servant of the Lake. Unlike the mothers in previous games who were "
+    "sacrificed or gave themselves up, this mother wants to sacrifice her son "
+    "in order to gain eternal life, and that raw desire and ambition is what "
+    "gives the character her charm."
 )
 
 # Shuffle at the WORD level so it stays valid, tokenizable English text
@@ -166,4 +165,3 @@ with open("results.json", "w") as f:
     json.dump(summary, f, indent=2)
 
 print("\nSaved full results to results.json")
-
