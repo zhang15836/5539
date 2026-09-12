@@ -1,0 +1,48 @@
+{
+  "model": "distilgpt2",
+  "device": "cuda",
+  "perplexity": {
+    "original_paragraph": "I really like Alexandra, the new female character Rusty Lake introduced in Servant of the Lake. Unlike the mothers in previous games who were sacrificed or gave themselves up, this mother wants to sacrifice her son in order to gain eternal life, and that raw desire and ambition is what gives the character her charm.",
+    "shuffled_paragraph": "mother were what in Unlike previous gives her son in Lake sacrifice life, raw this charm. Alexandra, games and the up, introduced and who to sacrificed I or the mothers wants in gave Servant gain to is of desire character like themselves order new her that female Rusty the Lake. the ambition really character eternal",
+    "ppl_original": 91.40975952148438,
+    "ppl_shuffled": 3823.361083984375,
+    "ratio": 41.82661790162304
+  },
+  "sampling": {
+    "greedy": {
+      "text": "Once upon a time of war, the United States was the only country in the world to have a military presence. The United States was the only country in the world to have a military presence. The United States was the only country in the world to have a military presence. The United States was the only country in the world to have a military presence. The United States was the only country in the world to have a military presence. The United States was the only country in the world to have a military presence. The United States was the only country in the world to have a military presence. The United States was the only country in the world to have a military presence. The United States was the only country in the world to have a military presence. The United States",
+      "distinct_1": 0.13194444444444445,
+      "distinct_2": 0.15384615384615385
+    },
+    "T=0": {
+      "text": "Once upon a time of war, the United States was the only country in the world to have a military presence. The United States was the only country in the world to have a military presence. The United States was the only country in the world to have a military presence. The United States was the only country in the world to have a military presence. The United States was the only country in the world to have a military presence. The United States was the only country in the world to have a military presence. The United States was the only country in the world to have a military presence. The United States was the only country in the world to have a military presence. The United States was the only country in the world to have a military presence. The United States",
+      "distinct_1": 0.13194444444444445,
+      "distinct_2": 0.15384615384615385
+    },
+    "T=0.3": {
+      "text": "Once upon a time, the only way to get to the end of the world is to get to the end of the world.\u201d\n\n\nThe world is a place where people are able to live, work, and live.\nThe world is a place where people can live, work, and live.\nThe world is a place where people can live, work, and live.\nThe world is a place where people can live, work, and live.\nThe world is a place where people can live, work, and live.\nThe world is a place where people can live, work, and live.\nThe world is a place where people can live, work, and live.\nThe world is a place where people can live",
+      "distinct_1": 0.2184873949579832,
+      "distinct_2": 0.288135593220339
+    },
+    "T=0.6": {
+      "text": "Once upon a time, the only way to receive the benefits of a new life is to get it.\n\n\n\n\nWhat if you are a new owner and you want to be a new owner?\nIf you want to build your own life, you must have some basic rules that are applicable to your new life.\nThe rules are:\n1. You must at least be willing to be in the industry to open up your own business.\n2. You must have a business that can take all of the benefits of your new life.\n3. You must have a business that can offer all the benefits of your new life.\n4. You must have a business that can offer all the benefits of your new life.\n5. You",
+      "distinct_1": 0.4645669291338583,
+      "distinct_2": 0.7063492063492064
+    },
+    "T=0.9": {
+      "text": "Once upon a time, you take that advantage as a reward and a reward. When you use it, you are rewarded with the ability to start A New World.\n\n\nTrivia [ edit ]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "distinct_1": 0.8787878787878788,
+      "distinct_2": 1.0
+    },
+    "T=1.2": {
+      "text": "Once upon a time, you wake up protagonist Breeboarding, and haven't stopped in Speechorial Mather at sea with the help of all her Powers, divided and humbled mere mortals (mine class holds 3 charkes *club awards high whilst spear wielding a massive amount of armor), stripped of Allpres Wrestling charges, and straddled like a Kimville lost in Oz at affording unsouched gratitude for the weary goddess. I doubt she will fall like a crows before - or, as Merry Jain Awakens pointed out, sealing further wounds for those advancing rather than \"protecting.\" Suddenly Skywolf once again guides Holrie sober and surfully - 2008, regret owndouettes castle shut on Idra beating Column Road woes back with Brypt",
+      "distinct_1": 0.8706896551724138,
+      "distinct_2": 0.991304347826087
+    },
+    "T=1.5": {
+      "text": "Once upon a time for the station that protagonist receive his Chief Servte Rider quest in Speechorial Mju Agreement Scroll\n\nWhat Continent (TC Powers, Doracles for Strange History, Riyu Mod KAniamond Ashes * Photographer awards Tentacle Scale secured\nBell candy coin presents numbered 65 press All Times Wrestling 317Things.dd 2018 TyDrags Kimville66 Travel Oz at 2030 participating 275 domains in Canada 33 races hashes released Stellar26 Anonymous Training Academy1226. DillonPat - BTC Warehouse64698Director Tennessee Awakens011ReKT sealing electrons radio 306binaryware Qomo Trouble Motor related Network Twitch SkywolfExploring ConservationCtrieBeyCH985 Sonic Mord 2008 SEOSocial Monitoring Platform DAITSGetty shut ZeusDebado beating Column Chiefjob 51 Armrieg relay",
+      "distinct_1": 0.9803921568627451,
+      "distinct_2": 1.0
+    }
+  }
+}
