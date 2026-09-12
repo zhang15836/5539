@@ -69,6 +69,9 @@ def main():
     parser.add_argument("--steps", type=int, default=60)
     parser.add_argument("--lr", type=float, default=0.05)
     parser.add_argument("--start", type=float, nargs=2, default=[4.0, 1.2])
+    parser.add_argument("--weight-decay", type=float, default=5.0,
+                         help="Large enough relative to the curvature (2, 20) to visibly "
+                              "change the trajectory shape, not just the endpoint.")
     parser.add_argument("--outdir", default=".")
     args = parser.parse_args()
     os.makedirs(args.outdir, exist_ok=True)
@@ -91,16 +94,17 @@ def main():
     fig.savefig(f"{args.outdir}/momentum_trajectories.png", dpi=150)
     plt.close(fig)
 
-    # (b) same momenta, with weight_decay=0.1
+    # (b) same momenta, with weight_decay
+    wd = args.weight_decay
     trajs_b = [
         run_sgd(f_min, args.start, args.steps, args.lr, momentum=m,
-                weight_decay=0.1, device=device)
+                weight_decay=wd, device=device)
         for m in momenta
     ]
     fig, ax = plt.subplots(figsize=(5, 5))
     plot_trajectories(
         ax, f_min, trajs_b, [f"momentum={m}" for m in momenta],
-        "SGD on f(x,y)=x²+10y² : momentum + weight_decay=0.1",
+        f"SGD on f(x,y)=x²+10y² : momentum + weight_decay={wd}",
     )
     fig.tight_layout()
     fig.savefig(f"{args.outdir}/weight_decay_trajectories.png", dpi=150)
@@ -134,4 +138,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
