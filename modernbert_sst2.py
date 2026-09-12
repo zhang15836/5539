@@ -1,17 +1,5 @@
 """
 ModernBERT fine-tuning on SST-2 — head-tuning vs LoRA
-Target: single NVIDIA A100-PCIE-40GB.
-
-pip install -U transformers datasets peft accelerate matplotlib
-
-Notes:
-- GLUE SST-2's official `test` split has no public labels (all -1, reserved
-  for leaderboard submission). We carve a held-out "test" set out of `train`
-  (5%) and use the official `validation` split as "dev". Dev is what's used
-  for model selection / early-stopping-by-best-checkpoint and for Table 1's
-  "Accuracy (validation)" column; the carved test set gives a second,
-  unseen-during-training number.
-- Requires transformers >= 4.48 (ModernBERT support).
 """
 
 import os
