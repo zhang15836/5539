@@ -1,15 +1,7 @@
 """
-Section 3.2 — Visualizing SGD behavior (momentum, weight_decay, maximize).
-
+Visualizing SGD behavior (momentum, weight_decay, maximize).
 Optimizes a toy 2D quadratic with torch.optim.SGD and plots the (x, y)
-trajectory over a contour of the objective. Produces three figures:
-  1. momentum_trajectories.png  -- effect of momentum in {0, 0.5, 0.9}
-  2. weight_decay_trajectories.png -- same momenta, with weight_decay=0.1
-  3. maximize_trajectories.png  -- maximize=True on -x^2-y^2 vs. minimize on x^2+y^2
-
-Runs on GPU automatically if available (`--device cuda`), otherwise CPU.
-Tiny problem size, so a GPU brings no speedup here -- it just needs to run
-inside the environment you already have the A100 in.
+trajectory over a contour of the objective. 
 """
 import argparse
 import os
